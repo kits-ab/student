@@ -26,7 +26,7 @@ function App() {
     <Wrapper>
       <Header links={[]}></Header>
       <MainHeading style={{ marginTop: "140px" }}>
-        Studentkväll på Keep It Simple
+        Studentkväll på KITS
       </MainHeading>
       <Lead style={{ margin: "50px 0px 100px 0px" }}>
         Är du student som snart är ute på arbetsmarknaden? Då vill vi visa vad
