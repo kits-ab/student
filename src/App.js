@@ -8,14 +8,9 @@ import {
   Vertical,
   Horizontal,
   Link,
-  Image,
   Offer,
-  MicroBlogIcon,
   OfferType,
-  DevelopmentIcon,
-  SecurityIcon,
   WorkshopIcon,
-  BoatIcon,
   LocationIcon,
   Header,
   Text,
@@ -72,19 +67,28 @@ function App() {
           <p>Ta med din dator och utmana kompisarna i ...</p>
         </Text>
         <Horizontal
-          style={{ justifyContent: "space-around", marginTop: "50px" }}
+          style={{
+            justifyContent: "space-around",
+            marginTop: "50px",
+            marginBottom: "250px"
+          }}
         >
           <Offer
+            style={{ height: "150px" }}
             heading="Anmälan"
             type={OfferType.Type1}
             icon={<WorkshopIcon />}
           >
             Anmäl dig{" "}
-            <Link to="https://forms.office.com/Pages/ResponsePage.aspx?id=nZx1MSeJDUOavM9Jb8hUKej6SRLTVBlJuGoLX11jJD9UMEVPVUYyR1U3OFJJRk1XVVJKQVk1V1o0SC4u" target="tab">
+            <Link
+              to="https://forms.office.com/Pages/ResponsePage.aspx?id=nZx1MSeJDUOavM9Jb8hUKej6SRLTVBlJuGoLX11jJD9UMEVPVUYyR1U3OFJJRk1XVVJKQVk1V1o0SC4u"
+              target="tab"
+            >
               här
             </Link>
           </Offer>
           <Offer
+            style={{ height: "150px" }}
             heading="På vårt kontor"
             type={OfferType.Type3}
             icon={<LocationIcon />}
