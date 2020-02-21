@@ -28,7 +28,8 @@ function App() {
       <Helmet>
         <meta charSet="utf-8" />
         <title>Studentkväll - KITS AB</title>
-        <favicon />
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+        <link rel="icon" href="/favicon.ico" type="image/x-icon"></link>
       </Helmet>
       <Header links={[]}></Header>
       <MainHeading style={{ marginTop: "140px" }}>
