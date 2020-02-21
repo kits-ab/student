@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import "./App.css";
 import {
   Wrapper,
@@ -24,6 +25,11 @@ import {
 function App() {
   return (
     <Wrapper>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Studentkväll - KITS AB</title>
+        <favicon />
+      </Helmet>
       <Header links={[]}></Header>
       <MainHeading style={{ marginTop: "140px" }}>
         Studentkväll på KITS
