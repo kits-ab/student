@@ -80,7 +80,7 @@ function App() {
             icon={<WorkshopIcon />}
           >
             Anmäl dig{" "}
-            <Link to="#" target="tab">
+            <Link to="https://forms.office.com/Pages/ResponsePage.aspx?id=nZx1MSeJDUOavM9Jb8hUKej6SRLTVBlJuGoLX11jJD9UMEVPVUYyR1U3OFJJRk1XVVJKQVk1V1o0SC4u" target="tab">
               här
             </Link>
           </Offer>
