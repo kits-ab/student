@@ -42,31 +42,60 @@ function App() {
           vi brinner för! KITS bjuder till inspirationskväll med berättelser
           från vår verklighet tillsammans med en bit mat och dryck.
         </Lead>
+        <Text style={{ margin: "30px 0px" }}>
+          <h2>Välkommen</h2>
+          <p>
+            8 maj kl 17-20 ser vi fram emot att träffa er, som vi hoppas kan bli
+            våra framtida kollegor. Kvällen kommer innehålla historier från
+            arbetslivet, live-kodning och kanske en liten tävling.
+          </p>
+        </Text>
         <Vertical>
-          <Text style={{ margin: "30px 0px" }}>
-            <h2>Välkommen till oss</h2>
-            <p>
-              8 maj kl 17-20 ser vi fram emot att träffa er,
-              som vi hoppas kan bli våra framtida kollegor. Kvällen kommer
-              innehålla historier från arbetslivet och hands on live-kodning.
-            </p>
-          </Text>
-          <Collage images={[{ src: "./nyheter_iot-bb8.jpg" }]} />
-
-          <Text>
-            <h2 style={{ marginTop: "20px" }}>Vilka är vi?</h2>
+          <Offer
+            style={{ margin: "70px 0px" }}
+            heading="Vilka är vi?"
+            type={OfferType.Type1}
+            icon={<WorkshopIcon />}
+          >
             <p>
               KITS är ett it-konsultbolag baserat i Göteborg. Vi är en blandning
               av talanger och experter. Vi har stort fokus på
-              kompetensutveckling och kompetensspridning inom våra teknik- och
-              verksamhetsområden. Vi utvecklar hela tiden KITS till ett bättre
-              bolag där det är högt i tak, processerna är agila och där det är
-              kul på jobbet.
+              kompetensutveckling och kompetensspridning. Vi utvecklar hela
+              tiden KITS till ett bättre bolag där det är högt i tak,
+              processerna är agila och där det är kul på jobbet.
             </p>
-
-            <h2 style={{ marginTop: "20px" }}>Tävling</h2>
-            <p>Ta med din dator och utmana kompisarna i ...</p>
-          </Text>
+          </Offer>
+          {/* <Collage images={[{ src: "./nyheter_iot-bb8.jpg" }]} />
+          <Collage images={[{ src: "./formaner_kontoret07.jpg" }]} /> */}
+          {/* <Text>
+            <h2 style={{ marginTop: "20px" }}>Anmälan</h2>
+          </Text> */}
+          <Offer
+            style={{ margin: "100px 0px" }}
+            heading="Anmäl och hitta"
+            type={OfferType.Type4}
+            icon={<LocationIcon />}
+          >
+            <p>
+              Anmäl dig{" "}
+              <Link
+                to="https://forms.office.com/Pages/ResponsePage.aspx?id=nZx1MSeJDUOavM9Jb8hUKej6SRLTVBlJuGoLX11jJD9UMEVPVUYyR1U3OFJJRk1XVVJKQVk1V1o0SC4u"
+                target="tab"
+              >
+                här
+              </Link>
+            </p>
+            <p>
+              <a href="https://goo.gl/maps/vZryr7ABfYZqMZZM6" target="tab">
+                Hitta till oss
+              </a>
+            </p>
+            {/* <p>Norra Allégatan 8</p>
+            <p>413 01 Göteborg</p>
+            <a href="https://goo.gl/maps/vZryr7ABfYZqMZZM6" target="tab">
+              Hitta hit
+            </a> */}
+          </Offer>
           {/* <Horizontal
             style={{
               justifyContent: "space-around",
