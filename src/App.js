@@ -29,6 +29,10 @@ function App() {
           <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
           <link rel="icon" href="/favicon.ico" type="image/x-icon"></link>
           <meta
+            name="description"
+            content="Studentkväll - KITS AB, 8 maj kl 17-20"
+          ></meta>
+          <meta
             name="viewport"
             content="width=device-width, initial-scale=1, user-scalable=no"
           ></meta>
