@@ -42,7 +42,7 @@ function App() {
           vi brinner för! KITS bjuder till inspirationskväll med berättelser
           från vår verklighet tillsammans med en bit mat och dryck.
         </Lead>
-        <Text style={{ margin: "30px 0px" }}>
+        <Text style={{ margin: "0px 0px" }}>
           <h2>Välkommen</h2>
           <p>
             8 maj kl 17-20 ser vi fram emot att träffa er, som vi hoppas kan bli
@@ -52,17 +52,16 @@ function App() {
         </Text>
         <Vertical>
           <Offer
-            style={{ margin: "70px 0px" }}
+            style={{ margin: "70px 10px 70px 10px", padding: "0px 15px" }}
             heading="Vilka är vi?"
             type={OfferType.Type1}
             icon={<WorkshopIcon />}
           >
             <p>
               KITS är ett it-konsultbolag baserat i Göteborg. Vi är en blandning
-              av talanger och experter. Vi har stort fokus på
-              kompetensutveckling och kompetensspridning. Vi utvecklar hela
-              tiden KITS till ett bättre bolag där det är högt i tak,
-              processerna är agila och där det är kul på jobbet.
+              av talanger och experter. Vi har stort fokus på kompetens och
+              utvecklar hela tiden KITS till ett bättre bolag där det är högt i
+              tak, processerna är agila och där det är kul på jobbet.
             </p>
           </Offer>
           {/* <Collage images={[{ src: "./nyheter_iot-bb8.jpg" }]} />
@@ -71,7 +70,7 @@ function App() {
             <h2 style={{ marginTop: "20px" }}>Anmälan</h2>
           </Text> */}
           <Offer
-            style={{ margin: "100px 0px" }}
+            style={{ margin: "0px 30px 40px 25px" }}
             heading="Anmäl och hitta"
             type={OfferType.Type4}
             icon={<LocationIcon />}
